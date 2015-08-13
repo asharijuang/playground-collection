@@ -19,4 +19,10 @@ angka.removeAll()
 var dic = [ "name": "ashari juang", "email": "asharijuang@me.com", "gender": "male"]
 // memanggil sama dengan array tetapi tidak menggunakan index melainkan dengan key
 print(dic["name"]!)
+// Add new dictionary
+dic["address"] = "Semarang City"
+print(dic)
+dic.removeAll()
+print(dic)
+
 
